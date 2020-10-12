@@ -8,7 +8,7 @@
         
 ## Key Notes:
         
-            1. Stay Organized! (Directories and    Folders)
+            1. Stay Organized! (Directories and Folders)
             2. Use Terminal for git init/creation
             3. Utilize instructor notes
           
