@@ -11,5 +11,8 @@ while len(nums_3) <= 2:
     nums_3.append(nums_1[2] * nums_2[2])
 
 print(nums_3)
+
+##advanced way
+print([num * nums_2[idx] for idx, num in enumerate(nums_1)])
     
   

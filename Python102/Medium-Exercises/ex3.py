@@ -1,0 +1,1 @@
+##note to self: try zip function with multiplication

@@ -12,3 +12,6 @@ for number in nums:
 
 ##print statement
 print(new_nums)
+
+##to do it in one line would be
+print([num * factor for num in nums])

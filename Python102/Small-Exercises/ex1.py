@@ -1,4 +1,4 @@
-ls##declare list
+##declare list
 nums = [1, 2, 3, 4]
 
 ##print sum
