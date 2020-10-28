@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sticky Position</title>
+    <style>
+        h1{
+            color : goldenrod;
+        }
+      .section {
+        position: relative;
+      }
+      .sidebar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        padding-top: 35px;
+      }
+      .menu {
+        color : goldenrod;
+        padding-left: 20px;
+        position: sticky;
+        top: 20px;
+        left: 0;
+      }
+      .post {
+        margin-left: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="section">
+      <aside class="sidebar">
+        <ul class="menu">
+          <li>Home</li>
+          <li>Posts</li>
+          <li>About Us</li>
+          <li>Company Culture</li>
+          <li>Contact</li>
+        </ul>
+      </aside>
+
+      <main class="post">
+        <h1>A Bunch of Stuff</h1>
+            <p>
+                Lorem duis id exercitation dolore quis consequat voluptate do culpa enim ad do. Labore reprehenderit eu dolor do veniam ipsum id. Labore veniam commodo cillum aute eiusmod dolor consequat culpa. Amet proident cupidatat aliqua in magna consequat anim anim non. Nisi et incididunt minim dolore voluptate esse. Labore ex laborum sit sit. Id cupidatat laborum nisi officia velit aliqua ad irure reprehenderit nulla excepteur.
+            </p>
+            <p>
+                Adipisicing sit do velit nostrud mollit consequat in qui nisi. Eu mollit dolore qui proident eu officia culpa aute sint id dolor. Labore ut excepteur cupidatat sunt in labore elit reprehenderit anim eiusmod qui. Magna quis qui adipisicing magna non in mollit dolore labore consequat. Incididunt cupidatat et consequat excepteur. Culpa nisi irure excepteur qui culpa.
+            </p>
+        </main>
+    </section>
+    </body>
+</html>
