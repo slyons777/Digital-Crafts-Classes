@@ -3,4 +3,4 @@ function printSquare(size) {
   console.log(string.repeat(size));
 }
 
-printSquare(8);
+printSquare(7);

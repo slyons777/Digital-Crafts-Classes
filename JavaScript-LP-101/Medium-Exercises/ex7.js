@@ -1,9 +1,11 @@
 function printBanner(text) {
-  let dash = "-";
+  let dash = "";
   let stretch = text.length;
-  console.log(dash.repeat(stretch));
-  console.log("- " + text + " -");
+  for (let i = 0; i < stretch + 2; i++) dash += "-";
+
+  console.log(dash);
+  console.log("-" + text + "-");
+  console.log(dash);
 }
 
 printBanner("Welcome to Digital Crafts");
-console.log(text.length);
